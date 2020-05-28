@@ -3,5 +3,5 @@ cp=float(input("Enter Cost Price of the Product "))
 sp=float(input("Enter Selling Price of the Product "))
 profit=sp-cp
 print(f"Profit= {profit}")
-new_sp=((100+5)/100)*cp
-print(f" Selling Price after 5% profit on product = {new_sp}")
+new_sp=1.05*profit+cp
+print(f" Selling Price after 5% extra profit on product = {new_sp}")
